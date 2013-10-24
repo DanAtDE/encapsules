@@ -20,7 +20,7 @@
 <path fill="none" stroke="gray" d="M8,-20C8,-14 14,-8 20,-8"/>
 <text text-anchor="middle" x="68" y="-334.1" font-family="Times Roman,serif" font-size="11.00" fill="gray">Chadicus</text>
 </g>
-<g id="graph3" class="cluster"><title>cluster_Chadicus\Capsules</title>
+<g id="graph3" class="cluster"><title>cluster_Chadicus\Encapsules</title>
 <polyline fill="none" stroke="gray" points="28,-16 108,-16 "/>
 <path fill="none" stroke="gray" d="M108,-16C114,-16 120,-22 120,-28"/>
 <polyline fill="none" stroke="gray" points="120,-28 120,-306 "/>
@@ -29,9 +29,9 @@
 <path fill="none" stroke="gray" d="M28,-318C22,-318 16,-312 16,-306"/>
 <polyline fill="none" stroke="gray" points="16,-306 16,-28 "/>
 <path fill="none" stroke="gray" d="M16,-28C16,-22 22,-16 28,-16"/>
-<text text-anchor="middle" x="68" y="-304.1" font-family="Times Roman,serif" font-size="11.00" fill="gray">Capsules</text>
+<text text-anchor="middle" x="68" y="-304.1" font-family="Times Roman,serif" font-size="11.00" fill="gray">Encapsules</text>
 </g>
-<g id="graph4" class="cluster"><title>cluster_Chadicus\Capsules\Integer</title>
+<g id="graph4" class="cluster"><title>cluster_Chadicus\Encapsules\Integer</title>
 <polyline fill="none" stroke="gray" points="36,-214 100,-214 "/>
 <path fill="none" stroke="gray" d="M100,-214C106,-214 112,-220 112,-226"/>
 <polyline fill="none" stroke="gray" points="112,-226 112,-276 "/>
@@ -42,7 +42,7 @@
 <path fill="none" stroke="gray" d="M24,-226C24,-220 30,-214 36,-214"/>
 <text text-anchor="middle" x="68" y="-274.1" font-family="Times Roman,serif" font-size="11.00" fill="gray">Integer</text>
 </g>
-<g id="graph5" class="cluster"><title>cluster_Chadicus\Capsules\String</title>
+<g id="graph5" class="cluster"><title>cluster_Chadicus\Encapsules\String</title>
 <polyline fill="none" stroke="gray" points="36,-24 100,-24 "/>
 <path fill="none" stroke="gray" d="M100,-24C106,-24 112,-30 112,-36"/>
 <polyline fill="none" stroke="gray" points="112,-36 112,-194 "/>
@@ -53,29 +53,29 @@
 <path fill="none" stroke="gray" d="M24,-36C24,-30 30,-24 36,-24"/>
 <text text-anchor="middle" x="68" y="-192.1" font-family="Times Roman,serif" font-size="11.00" fill="gray">String</text>
 </g>
-<!-- \\Chadicus\\Capsules\\Integer\\Unsigned -->
-<g id="node4" class="node"><title>\\Chadicus\\Capsules\\Integer\\Unsigned</title>
+<!-- \\Chadicus\\Encapsules\\Integer\\Unsigned -->
+<g id="node4" class="node"><title>\\Chadicus\\Encapsules\\Integer\\Unsigned</title>
 <a xlink:href="Integer.Unsigned.html" xlink:title="Unsigned" target="_parent">
 <polygon fill="none" stroke="black" points="103,-258 33,-258 33,-222 103,-222 103,-258"/>
 <text text-anchor="middle" x="68" y="-237.1" font-family="Courier,monospace" font-size="11.00">Unsigned</text>
 </a>
 </g>
-<!-- \\Chadicus\\Capsules\\String\\NonEmpty -->
-<g id="node6" class="node"><title>\\Chadicus\\Capsules\\String\\NonEmpty</title>
+<!-- \\Chadicus\\Encapsules\\String\\NonEmpty -->
+<g id="node6" class="node"><title>\\Chadicus\\Encapsules\\String\\NonEmpty</title>
 <a xlink:href="String.NonEmpty.html" xlink:title="NonEmpty" target="_parent">
 <polygon fill="none" stroke="black" points="103,-176 33,-176 33,-140 103,-140 103,-176"/>
 <text text-anchor="middle" x="68" y="-155.1" font-family="Courier,monospace" font-size="11.00">NonEmpty</text>
 </a>
 </g>
-<!-- \\Chadicus\\Capsules\\String\\Url -->
-<g id="node7" class="node"><title>\\Chadicus\\Capsules\\String\\Url</title>
+<!-- \\Chadicus\\Encapsules\\String\\Url -->
+<g id="node7" class="node"><title>\\Chadicus\\Encapsules\\String\\Url</title>
 <a xlink:href="String.Url.html" xlink:title="Url" target="_parent">
 <polygon fill="none" stroke="black" points="95,-122 41,-122 41,-86 95,-86 95,-122"/>
 <text text-anchor="middle" x="68" y="-101.1" font-family="Courier,monospace" font-size="11.00">Url</text>
 </a>
 </g>
-<!-- \\Chadicus\\Capsules\\String\\Integer -->
-<g id="node8" class="node"><title>\\Chadicus\\Capsules\\String\\Integer</title>
+<!-- \\Chadicus\\Encapsules\\String\\Integer -->
+<g id="node8" class="node"><title>\\Chadicus\\Encapsules\\String\\Integer</title>
 <a xlink:href="String.Integer.html" xlink:title="Integer" target="_parent">
 <polygon fill="none" stroke="black" points="100,-68 36,-68 36,-32 100,-32 100,-68"/>
 <text text-anchor="middle" x="68" y="-47.1" font-family="Courier,monospace" font-size="11.00">Integer</text>
