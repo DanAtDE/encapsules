@@ -1,5 +1,5 @@
 {
-    "name": "chadicus/capsules",
+    "name": "chadicus/encapsules",
     "description": "A collection of wrapper classes that encapsulates behavior with primitive types",
     "keywords": ["php"],
     "authors": [

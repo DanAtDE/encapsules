@@ -1,5 +1,5 @@
 <?php
-namespace Chadicus\Capsules\String;
+namespace Chadicus\Encapsules\String;
 
 /**
  * String wrapper class to ensure the value is a non-empty string.

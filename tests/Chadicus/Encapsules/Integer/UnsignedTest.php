@@ -1,10 +1,10 @@
 <?php
-namespace Chadicus\Capsules\Integer\Tests;
+namespace Chadicus\Encapsules\Integer\Tests;
 
-use Chadicus\Capsules\Integer\Unsigned;
+use Chadicus\Encapsules\Integer\Unsigned;
 
 /**
- * Unit tests for the Chadicus\Capsules\Integer\Unsigned class.
+ * Unit tests for the Chadicus\Encapsules\Integer\Unsigned class.
  */
 final class UnsignedTest extends \PHPUnit_Framework_TestCase
 {
@@ -12,8 +12,8 @@ final class UnsignedTest extends \PHPUnit_Framework_TestCase
      * Verify basic behavior.
      *
      * @test
-     * @covers \Chadicus\Capsules\Integer\Unsigned::__construct
-     * @covers \Chadicus\Capsules\Integer\Unsigned::getValue
+     * @covers \Chadicus\Encapsules\Integer\Unsigned::__construct
+     * @covers \Chadicus\Encapsules\Integer\Unsigned::getValue
      *
      * @return void
      */
@@ -29,7 +29,7 @@ final class UnsignedTest extends \PHPUnit_Framework_TestCase
      *
      * @test
      * @dataProvider badData
-     * @covers \Chadicus\Capsules\Integer\Unsigned::__construct
+     * @covers \Chadicus\Encapsules\Integer\Unsigned::__construct
      * @expectedException \InvalidArgumentException
      * @expectedExceptionMessage $value must be an integer greater than 0
      *

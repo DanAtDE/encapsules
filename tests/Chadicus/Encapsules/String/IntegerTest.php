@@ -1,10 +1,10 @@
 <?php
-namespace Chadicus\Capsules\String\Tests;
+namespace Chadicus\Encapsules\String\Tests;
 
-use Chadicus\Capsules\String\Integer;
+use Chadicus\Encapsules\String\Integer;
 
 /**
- * Unit tests for the Chadicus\Capsules\String\Integer class.
+ * Unit tests for the Chadicus\Encapsules\String\Integer class.
  */
 final class IntegerTest extends \PHPUnit_Framework_TestCase
 {
@@ -12,8 +12,8 @@ final class IntegerTest extends \PHPUnit_Framework_TestCase
      * Verify basic behavior.
      *
      * @test
-     * @covers \Chadicus\Capsules\String\Integer::__construct
-     * @covers \Chadicus\Capsules\String\Integer::getValue
+     * @covers \Chadicus\Encapsules\String\Integer::__construct
+     * @covers \Chadicus\Encapsules\String\Integer::getValue
      *
      * @return void
      */
@@ -29,7 +29,7 @@ final class IntegerTest extends \PHPUnit_Framework_TestCase
      *
      * @test
      * @dataProvider badData
-     * @covers \Chadicus\Capsules\String\Integer::__construct
+     * @covers \Chadicus\Encapsules\String\Integer::__construct
      * @expectedException \InvalidArgumentException
      * @expectedExceptionMessage $value must be a string that contains only integers
      *

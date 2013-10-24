@@ -1,25 +1,25 @@
 <?php
-namespace Chadicus\Capsules\String\Tests;
+namespace Chadicus\Encapsules\String\Tests;
 
-use Chadicus\Capsules\String\Url;
+use Chadicus\Encapsules\String\NonEmpty;
 
 /**
- * Unit tests for the Chadicus\Capsules\String\Url class.
+ * Unit tests for the Chadicus\Encapsules\String\NonEmpty class.
  */
-final class UrlTest extends \PHPUnit_Framework_TestCase
+final class NonEmptyTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * Verify basic behavior.
      *
      * @test
-     * @covers \Chadicus\Capsules\String\Url::__construct
-     * @covers \Chadicus\Capsules\String\Url::getValue
+     * @covers \Chadicus\Encapsules\String\NonEmpty::__construct
+     * @covers \Chadicus\Encapsules\String\NonEmpty::getValue
      *
      * @return void
      */
     public function getValue()
     {
-        $this->assertSame('http://www.example.com', (new Url('http://www.example.com'))->getValue());
+        $this->assertSame('abc', (new NonEmpty('abc'))->getValue());
     }
 
     /**
@@ -29,15 +29,15 @@ final class UrlTest extends \PHPUnit_Framework_TestCase
      *
      * @test
      * @dataProvider badData
-     * @covers \Chadicus\Capsules\String\Url::__construct
+     * @covers \Chadicus\Encapsules\String\NonEmpty::__construct
      * @expectedException \InvalidArgumentException
-     * @expectedExceptionMessage $value is not a valid url string
+     * @expectedExceptionMessage $value must be a non-empty string
      *
      * @return void
      */
     public function constructWithInvalidValue($value)
     {
-         new Url($value);
+         new NonEmpty($value);
     }
 
     /**
@@ -51,8 +51,6 @@ final class UrlTest extends \PHPUnit_Framework_TestCase
             [''],
             ["\n \t"],
             [null],
-            ['www.apartialurl.com'],
-            ['not a url'],
         ];
     }
 }

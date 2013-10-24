@@ -1,5 +1,5 @@
 <?php
-namespace Chadicus\Capsules\Integer;
+namespace Chadicus\Encapsules\Integer;
 
 /**
  * Int wrapper class to ensure positiveness.
