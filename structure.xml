@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project version="2.0.0a12" title="">
+  <file path="String/NonEmpty.php" hash="e343574159d23b9f62590a475dcd1768" package="Default">
+    <class final="false" abstract="false" namespace="Chadicus\Capsules\String" line="7" package="Default">
+      <extends/>
+      <name>NonEmpty</name>
+      <full_name>\Chadicus\Capsules\String\NonEmpty</full_name>
+      <docblock line="4">
+        <description>String wrapper class to ensure the value is a non-empty string.</description>
+        <long-description></long-description>
+      </docblock>
+      <property final="false" static="false" visibility="private" line="14" namespace="Chadicus\Capsules\String" package="Default">
+        <name>$value</name>
+        <default></default>
+        <docblock line="9">
+          <description>The non-empty string value.</description>
+          <long-description></long-description>
+          <tag line="9" name="var" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Chadicus\Capsules\String" line="23" package="Default">
+        <name>__construct</name>
+        <full_name>__construct</full_name>
+        <docblock line="16">
+          <description>Construct a new NonEmpty object.</description>
+          <long-description></long-description>
+          <tag line="16" name="param" description="The non-empty string value." type="string" variable="$value">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="16" name="throws" description="Thrown if $value is not a non-empty string." type="\InvalidArgumentException">
+            <type by_reference="false">\InvalidArgumentException</type>
+          </tag>
+        </docblock>
+        <argument line="23">
+          <name>$value</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="true" abstract="false" static="false" visibility="public" namespace="Chadicus\Capsules\String" line="37" package="Default">
+        <name>getValue</name>
+        <full_name>getValue</full_name>
+        <docblock line="32">
+          <description>Returns the non-empty string value.</description>
+          <long-description></long-description>
+          <tag line="32" name="return" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file String/NonEmpty.php</error>
+    </parse_markers>
+  </file>
+  <file path="String/Url.php" hash="8a24daa2ef325d51a689918a3232f4a3" package="Default">
+    <class final="false" abstract="false" namespace="Chadicus\Capsules\String" line="7" package="Default">
+      <extends/>
+      <name>Url</name>
+      <full_name>\Chadicus\Capsules\String\Url</full_name>
+      <docblock line="4">
+        <description>String wrapper class to ensure the value is a valid url.</description>
+        <long-description></long-description>
+      </docblock>
+      <property final="false" static="false" visibility="private" line="14" namespace="Chadicus\Capsules\String" package="Default">
+        <name>$value</name>
+        <default></default>
+        <docblock line="9">
+          <description>The url string.</description>
+          <long-description></long-description>
+          <tag line="9" name="var" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Chadicus\Capsules\String" line="23" package="Default">
+        <name>__construct</name>
+        <full_name>__construct</full_name>
+        <docblock line="16">
+          <description>Construct a new Url object.</description>
+          <long-description></long-description>
+          <tag line="16" name="param" description="The url string value." type="string" variable="$value">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="16" name="throws" description="Thrown if $value is not a valid url string." type="\InvalidArgumentException">
+            <type by_reference="false">\InvalidArgumentException</type>
+          </tag>
+        </docblock>
+        <argument line="23">
+          <name>$value</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="true" abstract="false" static="false" visibility="public" namespace="Chadicus\Capsules\String" line="37" package="Default">
+        <name>getValue</name>
+        <full_name>getValue</full_name>
+        <docblock line="32">
+          <description>Return the url string value.</description>
+          <long-description></long-description>
+          <tag line="32" name="return" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file String/Url.php</error>
+    </parse_markers>
+  </file>
+  <file path="String/Integer.php" hash="900c621defb1b4db22b7f4600ae11887" package="Default">
+    <class final="false" abstract="false" namespace="Chadicus\Capsules\String" line="7" package="Default">
+      <extends/>
+      <name>Integer</name>
+      <full_name>\Chadicus\Capsules\String\Integer</full_name>
+      <docblock line="4">
+        <description>String wrapper class to ensure all characters are digits.</description>
+        <long-description></long-description>
+      </docblock>
+      <property final="false" static="false" visibility="private" line="14" namespace="Chadicus\Capsules\String" package="Default">
+        <name>$value</name>
+        <default></default>
+        <docblock line="9">
+          <description>The integer string value.</description>
+          <long-description></long-description>
+          <tag line="9" name="var" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Chadicus\Capsules\String" line="23" package="Default">
+        <name>__construct</name>
+        <full_name>__construct</full_name>
+        <docblock line="16">
+          <description>Construct a new Integer object.</description>
+          <long-description></long-description>
+          <tag line="16" name="param" description="The integer string." type="string" variable="$value">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="16" name="throws" description="Thrown if $value is not a string which contains all digits." type="\InvalidArgumentException">
+            <type by_reference="false">\InvalidArgumentException</type>
+          </tag>
+        </docblock>
+        <argument line="23">
+          <name>$value</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="true" abstract="false" static="false" visibility="public" namespace="Chadicus\Capsules\String" line="37" package="Default">
+        <name>getValue</name>
+        <full_name>getValue</full_name>
+        <docblock line="32">
+          <description>Returns the integer string value.</description>
+          <long-description></long-description>
+          <tag line="32" name="return" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file String/Integer.php</error>
+    </parse_markers>
+  </file>
+  <file path="Integer/Unsigned.php" hash="fcb661f61e6dadf7e1a206a9fab2c334" package="Default">
+    <class final="false" abstract="false" namespace="Chadicus\Capsules\Integer" line="7" package="Default">
+      <extends/>
+      <name>Unsigned</name>
+      <full_name>\Chadicus\Capsules\Integer\Unsigned</full_name>
+      <docblock line="4">
+        <description>Int wrapper class to ensure positiveness.</description>
+        <long-description></long-description>
+      </docblock>
+      <property final="false" static="false" visibility="private" line="14" namespace="Chadicus\Capsules\Integer" package="Default">
+        <name>$value</name>
+        <default></default>
+        <docblock line="9">
+          <description>The unsigned integer value.</description>
+          <long-description></long-description>
+          <tag line="9" name="var" description="" type="integer">
+            <type by_reference="false">integer</type>
+          </tag>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Chadicus\Capsules\Integer" line="23" package="Default">
+        <name>__construct</name>
+        <full_name>__construct</full_name>
+        <docblock line="16">
+          <description>Construct a new Unsigned object.</description>
+          <long-description></long-description>
+          <tag line="16" name="param" description="The unsigned integer." type="integer" variable="$value">
+            <type by_reference="false">integer</type>
+          </tag>
+          <tag line="16" name="throws" description="Thrown if $value is not a positive integer." type="\InvalidArgumentException">
+            <type by_reference="false">\InvalidArgumentException</type>
+          </tag>
+        </docblock>
+        <argument line="23">
+          <name>$value</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="true" abstract="false" static="false" visibility="public" namespace="Chadicus\Capsules\Integer" line="37" package="Default">
+        <name>getValue</name>
+        <full_name>getValue</full_name>
+        <docblock line="32">
+          <description>Returns the unsigned integer value.</description>
+          <long-description></long-description>
+          <tag line="32" name="return" description="" type="integer">
+            <type by_reference="false">integer</type>
+          </tag>
+        </docblock>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file Integer/Unsigned.php</error>
+    </parse_markers>
+  </file>
+  <package name="Default" full_name="Default"/>
+  <namespace name="Chadicus" full_name="Chadicus">
+    <namespace name="Capsules" full_name="Chadicus\Capsules">
+      <namespace name="Integer" full_name="Chadicus\Capsules\Integer"/>
+      <namespace name="String" full_name="Chadicus\Capsules\String"/>
+    </namespace>
+  </namespace>
+  <marker count="0">todo</marker>
+  <marker count="0">fixme</marker>
+  <deprecated count="0"/>
+</project>
