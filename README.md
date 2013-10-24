@@ -20,7 +20,7 @@ To add the library as a local, per-project dependency use [Composer](http://getc
 }
 ```
 ##Documentation
-Found in the [source](src/Chadicus) itself, take a look!
+PHP docs for the project can be found [here](http://chadicus.github.io/capsules).
 
 ##Contact
 Developers may be contacted at:
