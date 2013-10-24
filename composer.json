@@ -1,0 +1,23 @@
+{
+    "name": "chadicus/capsules",
+    "description": "A collection of wrapper classes that encapsulates behavior with primitive types",
+    "keywords": ["php"],
+    "authors": [
+        {
+            "name": "Chad Gray",
+            "email": "chadwickgray@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "~5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~3.7.19",
+        "chadicus/coding-standard": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "Chadicus": "src" }
+    }
+}
