@@ -8,7 +8,10 @@ if ($returnStatus !== 0) {
     exit(1);
 }
 
-passthru('./vendor/bin/phpcs --standard=' . __DIR__ . '/vendor/chadicus/coding-standard/Chadicus -n src tests *.php', $returnStatus);
+passthru(
+    './vendor/bin/phpcs --standard=' . __DIR__ . '/vendor/chadicus/coding-standard/Chadicus src tests *.php',
+    $returnStatus
+);
 if ($returnStatus !== 0) {
     exit(1);
 }
