@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<project version="2.0.0a12" title="">
+<project version="2.0.0a12" title="Capsule Documentation">
   <file path="String/NonEmpty.php" hash="e343574159d23b9f62590a475dcd1768" package="Default">
     <class final="false" abstract="false" namespace="Chadicus\Capsules\String" line="7" package="Default">
       <extends/>
@@ -7,14 +7,14 @@
       <full_name>\Chadicus\Capsules\String\NonEmpty</full_name>
       <docblock line="4">
         <description>String wrapper class to ensure the value is a non-empty string.</description>
-        <long-description></long-description>
+        <long-description/>
       </docblock>
       <property final="false" static="false" visibility="private" line="14" namespace="Chadicus\Capsules\String" package="Default">
         <name>$value</name>
-        <default></default>
+        <default/>
         <docblock line="9">
           <description>The non-empty string value.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="9" name="var" description="" type="string">
             <type by_reference="false">string</type>
           </tag>
@@ -25,7 +25,7 @@
         <full_name>__construct</full_name>
         <docblock line="16">
           <description>Construct a new NonEmpty object.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="16" name="param" description="The non-empty string value." type="string" variable="$value">
             <type by_reference="false">string</type>
           </tag>
@@ -35,7 +35,7 @@
         </docblock>
         <argument line="23">
           <name>$value</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -44,7 +44,7 @@
         <full_name>getValue</full_name>
         <docblock line="32">
           <description>Returns the non-empty string value.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="32" name="return" description="" type="string">
             <type by_reference="false">string</type>
           </tag>
@@ -62,14 +62,14 @@
       <full_name>\Chadicus\Capsules\String\Url</full_name>
       <docblock line="4">
         <description>String wrapper class to ensure the value is a valid url.</description>
-        <long-description></long-description>
+        <long-description/>
       </docblock>
       <property final="false" static="false" visibility="private" line="14" namespace="Chadicus\Capsules\String" package="Default">
         <name>$value</name>
-        <default></default>
+        <default/>
         <docblock line="9">
           <description>The url string.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="9" name="var" description="" type="string">
             <type by_reference="false">string</type>
           </tag>
@@ -80,7 +80,7 @@
         <full_name>__construct</full_name>
         <docblock line="16">
           <description>Construct a new Url object.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="16" name="param" description="The url string value." type="string" variable="$value">
             <type by_reference="false">string</type>
           </tag>
@@ -90,7 +90,7 @@
         </docblock>
         <argument line="23">
           <name>$value</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -99,7 +99,7 @@
         <full_name>getValue</full_name>
         <docblock line="32">
           <description>Return the url string value.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="32" name="return" description="" type="string">
             <type by_reference="false">string</type>
           </tag>
@@ -117,14 +117,14 @@
       <full_name>\Chadicus\Capsules\String\Integer</full_name>
       <docblock line="4">
         <description>String wrapper class to ensure all characters are digits.</description>
-        <long-description></long-description>
+        <long-description/>
       </docblock>
       <property final="false" static="false" visibility="private" line="14" namespace="Chadicus\Capsules\String" package="Default">
         <name>$value</name>
-        <default></default>
+        <default/>
         <docblock line="9">
           <description>The integer string value.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="9" name="var" description="" type="string">
             <type by_reference="false">string</type>
           </tag>
@@ -135,7 +135,7 @@
         <full_name>__construct</full_name>
         <docblock line="16">
           <description>Construct a new Integer object.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="16" name="param" description="The integer string." type="string" variable="$value">
             <type by_reference="false">string</type>
           </tag>
@@ -145,7 +145,7 @@
         </docblock>
         <argument line="23">
           <name>$value</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -154,7 +154,7 @@
         <full_name>getValue</full_name>
         <docblock line="32">
           <description>Returns the integer string value.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="32" name="return" description="" type="string">
             <type by_reference="false">string</type>
           </tag>
@@ -172,14 +172,14 @@
       <full_name>\Chadicus\Capsules\Integer\Unsigned</full_name>
       <docblock line="4">
         <description>Int wrapper class to ensure positiveness.</description>
-        <long-description></long-description>
+        <long-description/>
       </docblock>
       <property final="false" static="false" visibility="private" line="14" namespace="Chadicus\Capsules\Integer" package="Default">
         <name>$value</name>
-        <default></default>
+        <default/>
         <docblock line="9">
           <description>The unsigned integer value.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="9" name="var" description="" type="integer">
             <type by_reference="false">integer</type>
           </tag>
@@ -190,7 +190,7 @@
         <full_name>__construct</full_name>
         <docblock line="16">
           <description>Construct a new Unsigned object.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="16" name="param" description="The unsigned integer." type="integer" variable="$value">
             <type by_reference="false">integer</type>
           </tag>
@@ -200,7 +200,7 @@
         </docblock>
         <argument line="23">
           <name>$value</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -209,7 +209,7 @@
         <full_name>getValue</full_name>
         <docblock line="32">
           <description>Returns the unsigned integer value.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="32" name="return" description="" type="integer">
             <type by_reference="false">integer</type>
           </tag>
