@@ -4,15 +4,8 @@ namespace Chadicus\Encapsules\Integer;
 /**
  * Int wrapper class to ensure positiveness.
  */
-class Unsigned
+class Unsigned extends Chadicus\Encapsules\Object
 {
-    /**
-     * The unsigned integer value.
-     *
-     * @var integer
-     */
-    private $value;
-
     /**
      * Construct a new Unsigned object.
      *
@@ -26,16 +19,6 @@ class Unsigned
             throw new \InvalidArgumentException('$value must be an integer greater than 0');
         }
 
-        $this->value = $value;
-    }
-
-    /**
-     * Returns the unsigned integer value.
-     *
-     * @return integer
-     */
-    final public function getValue()
-    {
-        return $this->value;
+        $this->setValue($value);
     }
 }

@@ -4,15 +4,8 @@ namespace Chadicus\Encapsules\String;
 /**
  * String wrapper class to ensure all characters are digits.
  */
-class Integer
+class Integer extends Chadicus\Encapsules\Object
 {
-    /**
-     * The integer string value.
-     *
-     * @var string
-     */
-    private $value;
-
     /**
      * Construct a new Integer object.
      *
@@ -26,16 +19,6 @@ class Integer
             throw new \InvalidArgumentException('$value must be a string that contains only integers');
         }
 
-        $this->value = $value;
-    }
-
-    /**
-     * Returns the integer string value.
-     *
-     * @return string
-     */
-    final public function getValue()
-    {
-        return $this->value;
+        $this->setValue($value);
     }
 }

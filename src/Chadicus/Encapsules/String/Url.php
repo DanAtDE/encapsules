@@ -4,15 +4,8 @@ namespace Chadicus\Encapsules\String;
 /**
  * String wrapper class to ensure the value is a valid url.
  */
-class Url
+class Url extends Chadicus\Encapsules\Object
 {
-    /**
-     * The url string.
-     *
-     * @var string
-     */
-    private $value;
-
     /**
      * Construct a new Url object.
      *
@@ -26,16 +19,6 @@ class Url
              throw new \InvalidArgumentException('$value is not a valid url string');
         }
 
-        $this->value = $value;
-    }
-
-    /**
-     * Return the url string value.
-     *
-     * @return string
-     */
-    final public function getValue()
-    {
-        return $this->value;
+        $this->setValue($value);
     }
 }

@@ -4,15 +4,8 @@ namespace Chadicus\Encapsules\String;
 /**
  * String wrapper class to ensure the value is a non-empty string.
  */
-class NonEmpty
+class NonEmpty extends Chadicus\Encapsules\Object
 {
-    /**
-     * The non-empty string value.
-     *
-     * @var string
-     */
-    private $value;
-
     /**
      * Construct a new NonEmpty object.
      *
@@ -26,16 +19,6 @@ class NonEmpty
             throw new \InvalidArgumentException('$value must be a non-empty string');
         }
 
-        $this->value = $value;
-    }
-
-    /**
-     * Returns the non-empty string value.
-     *
-     * @return string
-     */
-    final public function getValue()
-    {
-        return $this->value;
+        $this->setValue($value);
     }
 }
